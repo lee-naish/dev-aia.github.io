@@ -8,7 +8,8 @@
 /node_modules
 /.pnp
 .pnp.js
-package-lock.json
+# XXX might need this???
+# package-lock.json
 
 # testing
 /coverage
