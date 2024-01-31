@@ -8,14 +8,15 @@
 /node_modules
 /.pnp
 .pnp.js
-# XXX might need this???
+# XXX might need this for github deployment???
 # package-lock.json
 
 # testing
 /coverage
 
 # production
-/build
+# XXX might need this for github deployment???
+# /build
 
 # misc
 .DS_Store
