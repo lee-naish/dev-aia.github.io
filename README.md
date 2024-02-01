@@ -1,4 +1,4 @@
 # Algorithms in Action
 
 This is a copy of the real thing for messing about with web deployment
-hosted in github (ome progress but...:
+hosted in github (ome progress but...):
