@@ -32,6 +32,8 @@ jobs:
         run: |
           npm install
           npm run build
+        with:
+          process.env.CI: false
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
