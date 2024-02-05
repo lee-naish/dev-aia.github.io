@@ -16,7 +16,7 @@
 
 # production
 # XXX might need this for github deployment???
-/build
+# /build
 
 # misc
 .DS_Store
