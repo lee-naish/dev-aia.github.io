@@ -39,12 +39,9 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        run: |
-          npm install -g serve
-          serve -s build
-        # uses: JamesIves/github-pages-deploy-action@3.7.1
-        # with:
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # BRANCH: master # The branch the action should deploy to.
-          # FOLDER: build # The folder the action should deploy.
-          # CLEAN: true # Automatically remove deleted files from the deploy branch
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
