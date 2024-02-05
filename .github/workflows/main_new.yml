@@ -39,8 +39,8 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        npm install -g serve
-        serve -s build
+          npm install -g serve
+          serve -s build
         # uses: JamesIves/github-pages-deploy-action@3.7.1
         # with:
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
