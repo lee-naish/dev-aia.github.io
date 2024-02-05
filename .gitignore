@@ -9,7 +9,7 @@
 /.pnp
 .pnp.js
 # XXX might need this for github deployment???
-# package-lock.json
+package-lock.json
 
 # testing
 /coverage
