@@ -30,9 +30,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci # assumes package.json etc comitted and frozen
-    - run: npm install
-    - run: npm run build --if-present
+    - run: | 
+        npm ci 
+        npm install
+        npm run build --if-present
+    # npm ci assumes package.json etc comitted and frozen
     # XXX tests might be outdated - should be checked
     # Test Suites: 4 failed, 7 passed, 11 total
     # Tests:       8 failed, 30 passed, 38 total
