@@ -14,7 +14,7 @@ const PRIMS_EXAMPLE2 = 'Please enter the symmetrical value in matrix';
 const GRAPH_EGS = [ // XXX think up better examples
         { name: 'Example 1',
           size: 5,
-          coords: '5-5, 15-15, 25-13, 30-4, 45-15',
+          coords: '5-5, 15-15, 25-13, 30-4, 45-16',
           edges: '1-2,1-4,2-3,2-4,1-5-9,4-5,3-5'
         },
         { name: 'Example 2',
