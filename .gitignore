@@ -15,8 +15,8 @@ package-lock.json
 /coverage
 
 # production
-# XXX might need this for github deployment???
-# /build
+# XXX might need this for deployment???
+/build
 
 # misc
 .DS_Store
